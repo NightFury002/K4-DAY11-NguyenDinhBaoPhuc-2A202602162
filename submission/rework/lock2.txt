@@ -1,0 +1,9 @@
+round: rework
+slice: B1-mid
+sha256: ba7271ac98c97218cf0f6ec13eac7cadb7d7eda691064fad6bde5d3d73ef3ce2
+code: BA72-71AC
+locked_at: 2026-09-29T22:11:34+07:00
+shapes: box=26, polygon=9
+prefill_kept: 0
+prefill_edited: 3
+new: 23

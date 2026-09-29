@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2026-09-29,QA B4-dense thiếu box,Giữ finding R01 cho 5 object cao hơn H=40,Đối chiếu ảnh và ghi frame/object cụ thể trong qa_review.md,done
+2,2026-09-29,Review B1-mid frame 034080,Ưu tiên kiểm missing/spurious và vùng ignore,local_quality_conflicts.csv có nhiều conflict nhất,done
+3,2026-09-29,Đề xuất guideline patch,Đề xuất R12 cho lượt quét thiếu box sau khi vẽ,R01 có ngưỡng nhưng chưa quy định lượt quét độc lập,done
+4,2026-09-29,Escalation ảnh bằng chứng,Chuyển QA kiểm lại frame 034080 trước khi dùng làm gold,Chưa có PNG/JPG trong screenshots nên cần bổ sung ảnh thật,escalated

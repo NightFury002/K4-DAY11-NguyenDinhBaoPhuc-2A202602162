@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,coverage,Đại diện cảnh thường và giữ baseline cho vật phía trước
+front,hard,30,ambiguity,Ưu tiên seam góc trước, méo fisheye, xe cắt biên và vật gần nhau
+rear,normal,20,coverage,Phủ cảnh lùi thông thường và các class xuất hiện ổn định
+rear,hard,30,occlusion,Ưu tiên che khuất, ánh sáng ngược, vật nhỏ và vùng sát mép
+left,normal,20,coverage,Phủ góc nhìn bên trái trong điều kiện quan sát rõ
+left,hard,25,seam,Ưu tiên seam trước-trái, vật cắt khung và khác biệt phối cảnh
+right,normal,20,coverage,Phủ góc nhìn bên phải trong điều kiện quan sát rõ
+right,hard,30,seam,Ưu tiên seam sau-phải, méo rìa, vật chồng lấn và tracking khó
